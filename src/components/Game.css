@@ -1,0 +1,121 @@
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #000;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    font-size: 1.5rem;
+}
+
+.score-container {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 2rem;
+    color: white;
+}
+
+.score-container span {
+    color: yellow;
+    font-weight: bold;
+}
+
+.tip {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: white;
+}
+
+.tip b {
+    color: yellow;
+    font-weight: bold;
+}
+
+.word-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 3rem;
+}
+
+.letter, .blankSquare {
+    font-size: 3rem;
+    margin: 0 15px;
+    padding: 10px;
+    border-bottom: 3px solid #fff;
+}
+
+.blankSquare {
+    width: 40px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #fff;
+    font-size: 3rem;
+    color: white;
+    background-color: transparent;
+}
+
+.instructions {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+input[type="text"] {
+    padding: 12px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background-color: #222;
+    color: #fff;
+    margin-right: 1.2rem;
+}
+
+button {
+    padding: 15px 25px;
+    font-size: 1.5rem;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.wrongLettersContainer {
+    margin-top: 40px;
+}
+
+.wrongLettersContainer p {
+    font-size: 1.5rem;
+}
+
+.guessed-letters {
+    display: flex;
+    gap: 15px;
+    font-size: 1.5rem;
+}
+
+.guessed-letter {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: #333;
+}
