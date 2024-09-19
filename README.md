@@ -37,7 +37,7 @@ Para rodar o projeto localmente, siga os passos abaixo:
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/secret-word-game.git
+   git clone https://github.com/saulosw/secret-word-game.git
 
 2. Navegue até o diretório do projeto:
    ```bash
