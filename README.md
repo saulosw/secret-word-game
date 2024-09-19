@@ -4,17 +4,17 @@ O **Secret Word Game** é um jogo de adivinhação de palavras feito em React. N
 
 ## 🚀 Funcionalidades
 
-- 🌟 Sistema de pontuação dinâmico
-- 📝 Dicas baseadas na categoria da palavra
-- ⏳ Contador de tentativas restantes
-- 💡 Interface amigável e interativa
-- 🔁 Reinício do jogo após o Game Over
+- Sistema de pontuação dinâmico
+- Dicas baseadas na categoria da palavra
+- Contador de tentativas restantes
+- Interface amigável e interativa
+- Reinício do jogo após o Game Over
 
 ## 🛠️ Tecnologias Utilizadas
 
-- ⚛️ **React**: Para criar a interface do usuário e gerenciar os estados do jogo
-- 🎨 **CSS**: Para estilizar a interface de maneira simples e elegante
-- 💻 **JavaScript (ES6+)**: Para gerenciar a lógica do jogo
+- **React**: Para criar a interface do usuário e gerenciar os estados do jogo
+- **CSS**: Para estilizar a interface de maneira simples e elegante
+- **JavaScript (ES6+)**: Para gerenciar a lógica do jogo
 
 ## 📂 Estrutura do Projeto
 
